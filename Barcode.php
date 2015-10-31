@@ -12,7 +12,7 @@
 
 class Barcode {
 
-    protected static $code39;
+    protected static $code128;
 
     public static function code128($data) {
         $fontPath = "./arialbd.ttf";
